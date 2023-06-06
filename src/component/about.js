@@ -5,6 +5,7 @@ export default function About({ colStyle }) {
 
     return (
         <>
+        <div className="container">
             <h2 className='container'>About Us</h2>
         <div className="container  " style={colStyle }>
             <div className="accordion accordion-flush my-1 " id="accordionFlushExample">
@@ -41,6 +42,7 @@ export default function About({ colStyle }) {
                     </div>
                 </div>
             </div>
+        </div>
         </div>
         </>
     )

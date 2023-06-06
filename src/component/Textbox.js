@@ -25,7 +25,7 @@ export default function Textbox(props) {
 
     return (
         <>
-            <div>
+            <div className="container">
                 <div className="container" >
                     <div className="mb-3 my-2">
                         <label htmlFor="exampleFormControlTextarea1" className="form-label">
