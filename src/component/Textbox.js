@@ -18,7 +18,7 @@ export default function Textbox(props) {
     const handlUpChenge = (event) => {
         setText(event.target.value);
     };
-    const handlclrClick = (event) => {
+    const handlclrClick = () => {
         setText("");
 
     };
@@ -54,7 +54,7 @@ export default function Textbox(props) {
                     <div>
                         <h2 className="my-2"> Your Text Summary</h2>
 
-                        <p className="my-2">  {text.split(" ").filter((element)=>{return element.length!==0}).length} word ,{text.length} characters </p>
+                        <p className="my-2">  {text.split(/\s+/).filter((element)=>{return element.length!==0}).length} word ,{text.length} characters </p>
                         <p>{text.split("").length * 0.008} Minutes to read </p>
                     </div>
                 </div>

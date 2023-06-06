@@ -44,7 +44,7 @@ function App() {
   }
   setTimeout(() => {
     setAlert(null)
-  }, 2000);
+  }, 3000);
   // setInterval(() => {
   //   setTimeout(() => {
   //     showAlert("hello! you need to download app?")
